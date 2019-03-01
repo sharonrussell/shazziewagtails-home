@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The home for the shazziewagtails domain",
   "main": "app.js",
+  "scripts":{
+    "start": "node app.js"
+  },
   "author": "Sharon Russell",
   "repository": "https://github.com/sharonrussell/shazziewagtails-home",
   "private": true
