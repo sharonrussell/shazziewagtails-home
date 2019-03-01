@@ -8,5 +8,8 @@
   },
   "author": "Sharon Russell",
   "repository": "https://github.com/sharonrussell/shazziewagtails-home",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
