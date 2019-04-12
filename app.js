@@ -1,11 +1,8 @@
-    var express = require('express')
+var express = require('express')
 var app = express()
-const path = require('path');
-
-app.use(express.static(path.join(__dirname, '')));
 
 app.get('*', function(req, res) {
-	res.sendFile(path.join(__dirname+'index.html'));
+	res.send(`Go to my github! ${"http://www.github.com/sharonrussell"}`);
 });
 
 var port = process.env.PORT || 3000; 

@@ -10,11 +10,6 @@
   "repository": "https://github.com/sharonrussell/shazziewagtails-home",
   "private": true,
   "dependencies": {
-    "express": "^4.16.4",
-    "gulp": "^4.0.0",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "gulp-sass": "^4.0.2"
+    "express": "^4.16.4"
   }
 }
